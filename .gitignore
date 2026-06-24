@@ -1,0 +1,22 @@
+# Sensitive secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ChromaDB (vector database files)
+chroma_db/
+
+# IDE / OS files
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter notebooks checkpoints
+.ipynb_checkpoints/
+
+# Azure / deployment temp files (if any)
+*.log
